@@ -1,0 +1,23 @@
+{
+  "name": "node-arduino-serial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GenBurnside/node-arduino-serial"
+  },
+  "keywords": [
+    "serial",
+    "arduino"
+  ],
+  "author": "Matt Hughes",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/GenBurnside/node-arduino-serial/issues"
+  },
+  "homepage": "https://github.com/GenBurnside/node-arduino-serial"
+}
