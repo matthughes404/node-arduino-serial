@@ -5,5 +5,5 @@ See http://matthughes.io/serial-communication-with-node-js-and-arduino/ for more
 
 ##Configuration
 
-* Set 'serialPort' in 'config.js' to the string path of the USB device.
-* Set 'baudRate' in 'config.js' to the same rate as your Arduino's 'Serial.begin'
+* Set `serialPort` in `config.js` to the string path of the USB device.
+* Set `baudRate` in `config.js` to the same rate as your Arduino's `Serial.begin`
