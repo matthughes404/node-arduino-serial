@@ -1,8 +1,9 @@
-var serialPort = require("serialport");
-var SerialPort = require("serialport").SerialPort;
+var serialPort = require("serialport"),
+    SerialPort = require("serialport").SerialPort,
+    config = require("./config.js");
 
-var sp = new SerialPort("/dev/tty.usbserial-DA0145XF", {
-      baudrate: 9600
+var sp = new SerialPort(config.serialPort, {
+      baudrate: config.baudRate
 }, false);
 
 console.log("Starting up serial host...");
@@ -21,3 +22,7 @@ function write() {
 
 setTimeout(write, 1000); //wait 1s for everything to initialize correctly
 setInterval(write, 5000); //write data every 5s
+
+module.exports = {
+  write: write
+};
