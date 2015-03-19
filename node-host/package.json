@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/GenBurnside/node-arduino-serial",
   "dependencies": {
-    "googleapis": "^2.0.2",
     "serialport": "^1.6.3"
   }
 }
